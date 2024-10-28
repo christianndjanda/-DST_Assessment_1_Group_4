@@ -22,9 +22,9 @@ these models are seen below:
 library(knitr) 
 data = data.frame( 
 Model = c("KNN", "Logistic Regression", "Decision Tree","SVM"), 
-Precision_1 = c('94%', '97%','92%','93%'),
-Recall_1 = c('92%', '84%', '94%','94%'),
-Accuracy =c('89%', 'NA', '89%','90%')
+Precision_1 = c('94%', '96%','92%','93%'),
+Recall_1 = c('92%', '88%', '94%','94%'),
+Accuracy =c('89%', '88%', '89%','90%')
 )
 kable(data, format = "markdown")
 ```
@@ -44,9 +44,9 @@ We see them in the table below, alongside the other models:
 library(knitr) 
 data = data.frame( 
 Model = c("KNN", "Logistic Regression", "Decision Tree","SVM",'Stacked'), 
-Precision_1 = c('94%', '97%','92%','93%','93%'),
-Recall_1 = c('92%', '84%', '94%','94%','95%'),
-Accuracy =c('89%', 'NA', '89%','90%','90%')
+Precision_1 = c('94%', '96%','92%','93%','93%'),
+Recall_1 = c('92%', '88%', '94%','94%','95%'),
+Accuracy =c('89%', '88%', '89%','90%','90%')
 )
 kable(data, format = "markdown")
 ```
