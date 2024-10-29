@@ -9,6 +9,9 @@
 ## Reading and requirements
 To install all the Python dependencies, listed in `requirements.txt`, use the following command in a virtual environment:
 
+```{r}
+pip3 install -r requirements.txt
+```
 
 All report content is in the directory:
 * report
