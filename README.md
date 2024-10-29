@@ -2,7 +2,7 @@
 
 ## Project Members:
 * Christian
-* Inmran
+* Imran
 * Katherine
 * Shrey
 
